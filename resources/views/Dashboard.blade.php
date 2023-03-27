@@ -74,7 +74,7 @@
                                 <h1 class=" tracking-wider">Ayo berikan keluhan kalian, Agar bisa cepat di tanggani oleh petugas kami !!!</h1>
                             </div>
                             <a href="{{route('routePN.create')}}">
-                                <button class=" before:bg-putih  before:border-utama border bg-utama flex py-3 px-6 items-center text-sm text-putih hover:text-utama rounded-full overflow-hidden relative cursor-pointer transition-all duration-100 ease-in-out z-[1]  before:inline-block before:translate-y-full before:left-0 before:w-[100%] before:h-[300%] before:absolute before:rounded-full before:z-[-1] before:transition-transform before:ease-in before:duration-300 hover:transition-colors hover:duration-500 hover:ease-in hover:before:-translate-y-0  focus:outline-none">Ayo !!!</button>
+                                <button class=" bg-utama px-4 rounded-md text-sm font-bold py-2 hover:bg-orange text-putih">Ayo !!!</button>
                             </a>
                         </div>
                         <div class="">

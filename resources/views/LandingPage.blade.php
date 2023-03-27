@@ -24,7 +24,7 @@
             <div class=" flex justify-between">
                 <div class=" max-w-[550px] pl-14 flex flex-col gap-4">
                     <h1 class=" text-4xl font-bold tracking-wide leading-normal">Selamat Datang Di Aplikasi Pengaduan Masyarakat <span class=" text-orange">Sukasari</span></h1>
-                    <span class=" text-orange">Ayo berikan keluhan kalian, Agar bisa cepat di tanggani oleh petugas kami !!!</span>
+                    <span>Ayo berikan keluhan kalian, Agar bisa cepat di tanggani oleh petugas kami !!!</span>
                     <div class=" pt-4">
                         <span class=" bg-utama text-putih px-6 py-3 text-sm rounded-full">Total Pengaduan : <span class=" text-merah">{{$totalAduan}}</span></span>
                     </div>
