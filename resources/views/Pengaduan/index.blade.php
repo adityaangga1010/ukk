@@ -8,7 +8,7 @@
     <div class=" bg-putih w-full rounded-xl h-full pt-6 pb-16 px-6">
         <div class=" flex justify-end">
             @if (Auth::guard('masyarakat')->user())
-            <a href={{route('routePN.create')}} class=" bg-keempat py-[3px] hover:bg-opacity-80 duration-300 ease-in-out flex items-center px-4 rounded-full text-xs text-putih gap-1 ">
+            <a href={{route('routePN.create')}} class=" bg-keempat py-2 hover:bg-opacity-80 duration-300 ease-in-out flex items-center px-4 rounded-full text-xs text-putih gap-1 ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
                 </svg>
