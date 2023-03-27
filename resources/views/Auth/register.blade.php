@@ -17,9 +17,6 @@
         <div class=" min-h-screen flex justify-center font-jakartasans">
             <div class=" flex items-center">
                 <div class=" drop-shadow-3xl bg-putih rounded-xl w-[500px] p-10 flex flex-col items-center">
-                    @foreach ($errors->all() as $item)
-                        <small class=" text-merah">{{ $item }}</small>
-                    @endforeach
                     <h1 class=" font-medium text-2xl">Daftar</h1>
                     <span class=" text-sm pt-1 text-kedua">Masukkan detail data Anda untuk membuat akun</span>
                     <div class=" w-full pt-8">

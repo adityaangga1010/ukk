@@ -9,7 +9,7 @@
             <div class=" px-14 py-3 bg-utama">
                 <div class=" flex justify-between">
                     <div class=" flex items-center gap-2">
-                        <img class=" w-14 h-14" src="{{asset('img/tes.svg')}}">
+                        <img class=" w-14 h-14" src="{{asset('img/logo1.svg')}}">
                         <h1 class=" text-putih font-bold">Pengaduan SKS</h1>
                     </div>
                     <div class=" flex items-center gap-4">

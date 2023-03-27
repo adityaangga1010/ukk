@@ -68,7 +68,7 @@ class AuthController extends Controller
             Auth::guard('petugas')->logout();
         }
         Toastr::info('Anda Berhasil Keluar ', 'OK', ["positionClass" => "toast-top-right"]);
-        return redirect()->route('route.login');
+        return redirect()->route('routeLP.landing');
     }
     // landingpage
     public function landingpage(){

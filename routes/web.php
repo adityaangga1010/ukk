@@ -21,10 +21,10 @@ use App\Http\Controllers\TanggapanController;
 */
 // landingpage
 Route::get('/', function () {
-    return view('Auth.login');
+    return view('LandingPage');
 });
 // Route Landing
-// Route::get('/', [AuthController::class, 'landingpage'])->name('routeLP.landing');
+Route::get('/', [AuthController::class, 'landingpage'])->name('routeLP.landing');
 // Register
 Route::get('register', [AuthController::class, 'register'])->name('route.register');
 Route::post('register', [AuthController::class, 'storeRegister'])->name('store.register');

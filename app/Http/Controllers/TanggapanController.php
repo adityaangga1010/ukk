@@ -63,13 +63,13 @@ class TanggapanController extends Controller
 
         $admin = Auth::guard('petugas')->user()->nama;
         $tanggapans = Tanggapan::latest()->with('getDataPetugas', 'getDataPengaduan')->get();
-        $masyarakats = Pengaduan::latest()->with('getDataMasyarakat')->get();
+        // $masyarakats = Pengaduan::latest()->with('getDataMasyarakat')->get();
 
         $data = [
             'judul' => 'Generate Tanggapan dan Pengaduan',
             'admin' => $admin,
             'tanggapans' => $tanggapans,
-            'masyarakats' => $masyarakats,
+            // 'masyarakats' => $masyarakats,
         ];
 
         $pdf = Pdf::loadView('Tanggapan.pdf', $data)->setPaper('a4', 'landscape');

@@ -50,19 +50,17 @@
                         </tr>
                     </thead>
                     <tbody>
+                            @foreach ($tanggapans as $item)
                             <tr>
-                                @foreach ( $masyarakats as $item)
-                                    <td>{{$loop->index + 1}}</td>
-                                    <td>{{$item->getDataMasyarakat->nama}}</td>
-                                @endforeach
-                                @foreach ($tanggapans as $item)
-                                    <td>{{$item->getDataPengaduan->tgl_pengaduan}}</td>
-                                    <td>{{$item->getDataPengaduan->nik}}</td>
-                                    <td>{{$item->getDataPengaduan->isi_laporan}}</td>
-                                    <td>{{$item->tanggapan}}</td>
-                                    <td>{{$item->getDataPengaduan->status}}</td>
-                                @endforeach
+                                <td>{{$loop->index + 1}}</td>
+                                <td>{{$item->getDataPengaduan->getDataMasyarakat->nama}}</td>
+                                <td>{{$item->getDataPengaduan->tgl_pengaduan}}</td>
+                                <td>{{$item->getDataPengaduan->nik}}</td>
+                                <td>{{$item->getDataPengaduan->isi_laporan}}</td>
+                                <td>{{$item->tanggapan}}</td>
+                                <td>{{$item->getDataPengaduan->status}}</td>
                             </tr>
+                            @endforeach
                     </tbody>
                 </table>
             </div>
