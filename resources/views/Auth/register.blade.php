@@ -73,7 +73,7 @@
                             <button class=" hover:bg-opacity-80 duration-300 ease-in-out bg-utama w-full text-putih py-3 mb-4 rounded-md">Daftar</button>
                             <div class=" flex justify-center">
                                 <h1 class=" text-sm">Sudah memiliki akun? <a href="{{ route('route.login') }}"
-                                        class=" text-utama hover:underline">Masuk</a></h1>
+                                        class=" text-orange hover:underline">Masuk</a></h1>
                             </div>
                         </form>
                     </div>
