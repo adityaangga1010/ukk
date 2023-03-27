@@ -66,16 +66,15 @@
                     <div class=" flex justify-between items-start">
                         <div class=" flex flex-col gap-4">
                             <div class=" flex flex-col text-3xl tracking-wider gap-1 font-bold">
-                                <h1>Halo, <span class=" text-utama">{{Auth::user()->nama}}</span></h1>
                                 <span>Selamat Datang Di Aplikasi</span>
                                 <span>Pengaduan Masyarakat Kelurahan</span>
-                                <span class=" text-utama">Sukasari Bogor</span>
+                                <span class=" text-orange">Sukasari Bogor</span>
                             </div>
                             <div class=" max-w-[400px]">
                                 <h1 class=" tracking-wider">Ayo berikan keluhan kalian, Agar bisa cepat di tanggani oleh petugas kami !!!</h1>
                             </div>
                             <a href="{{route('routePN.create')}}">
-                                <button class=" before:bg-putih  before:border-utama border bg-utama flex py-3 px-6 items-center text-sm text-putih hover:text-utama rounded-full overflow-hidden relative cursor-pointer transition-all duration-100 ease-in-out z-[1]  before:inline-block before:translate-y-full before:left-0 before:w-[100%] before:h-[300%] before:absolute before:rounded-full before:z-[-1] before:transition-transform before:ease-in before:duration-300 hover:transition-colors hover:duration-500 hover:ease-in hover:before:-translate-y-0  focus:outline-none">Ayo Berikan Keluhan Kalian !!!</button>
+                                <button class=" before:bg-putih  before:border-utama border bg-utama flex py-3 px-6 items-center text-sm text-putih hover:text-utama rounded-full overflow-hidden relative cursor-pointer transition-all duration-100 ease-in-out z-[1]  before:inline-block before:translate-y-full before:left-0 before:w-[100%] before:h-[300%] before:absolute before:rounded-full before:z-[-1] before:transition-transform before:ease-in before:duration-300 hover:transition-colors hover:duration-500 hover:ease-in hover:before:-translate-y-0  focus:outline-none">Ayo !!!</button>
                             </a>
                         </div>
                         <div class="">

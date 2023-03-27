@@ -16,6 +16,7 @@ theme: {
         keempat: '#81b29a',
         kelima: '#F4F4F4',
         kuning: '#f2cc8f',
+        orange: '#FF6E04',
     },
     extend: {
         fontFamily: {
